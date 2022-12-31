@@ -2,7 +2,7 @@
 This is the Official Home Page Website for the Shashi KS YouTube Channel, where you can read blogs, access my test packages and do a bit more!
 
 # Who am I?
-If you have visited this page without having seen my Channel, you probably are wondering who am I and what is all this - Well, we've got you covered! <br/>
+I am an Educational YouTuber who posts videos on a variety of topics frpm
 
 # Social Media Links
 Official Website: https://shashiks.netlify.app <br/>
