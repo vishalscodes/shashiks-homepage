@@ -1,0 +1,24 @@
+{
+  "name": "shashiks",
+  "version": "1.0.0",
+  "description": "This is the Official Home Page Website for the Shashi KS YouTube Channel, where you can read blogs, access my test packages and do a bit more!",
+  "main": "index.js",
+  "scripts": {
+    "start": "eleventy --serve",
+    "build": "eleventy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vishalscodes/shashiks.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vishalscodes/shashiks/issues"
+  },
+  "homepage": "https://github.com/vishalscodes/shashiks#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^1.0.2"
+  }
+}
