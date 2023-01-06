@@ -24,7 +24,8 @@ YouTube: https://www.youtube.com/c/shashiks <br/>
 Twitter: https://twitter.com/shashiksishere <br/>
 Gmail: shashiks2732020@gmail.com <br/>
 Telegram Group: https://tinyurl.com/shashiks-telegram-group <br/>
-Telegram Channel: https://t.me/shashikschannel
+Telegram Channel: https://t.me/shashikschannel <br/>
+Our Forum: https://github.com/vishalscodes/shashiks/discussions
 
 ## A note on the FOSSness of this product
 
