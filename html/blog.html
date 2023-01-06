@@ -77,6 +77,10 @@
             questions shown in the first part of this blog.
           </p>
         </div>
+        <div class="box">
+          {% for post in collections.blog %} [{{blog.data.title}}]({{post.url}})
+          {% endfor %}
+        </div>
       </div>
     </section>
     <footer>
