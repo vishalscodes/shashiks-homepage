@@ -6,6 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title> {{ title }} </title>
     <link rel="shortcut icon" href="../img/logo.jpg" type="image/x-icon" />
+    <script
+      async
+      src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7171014498101039"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="../css/style.css" />
     <link rel="stylesheet" href="../css">
     <link rel="stylesheet" href="../css/menu.css" />
@@ -19,13 +24,14 @@
       name="description"
       content="{{ description }}"
     />
-<meta name="twitter:creator" content="@shashiksishere" />
-<meta property="og:url" content="#" />
-<meta property="og:title" content="{{ title }}" />
-<meta property="og:description" content="{{ description }}" />
-<meta name="author" content="Shashi KS">
+    <meta name="twitter:creator" content="@shashiksishere" />
+    <meta property="og:url" content="#" />
+    <meta property="og:title" content="{{ title }}" />
+    <meta property="og:description" content="{{ description }}" />
+    <meta name="author" content="Shashi KS">
   </head>
   <body>
+    <h1>{{ title }}</h1>
     {{ content | safe }}
   </body>
 </html>
