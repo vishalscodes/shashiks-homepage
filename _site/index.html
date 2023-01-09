@@ -6,12 +6,6 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title> Shashi KS Website Home Page </title>
     <link rel="shortcut icon" href="../img/logo.jpg" type="image/x-icon" />
-    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-    <script
-      async
-      src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7171014498101039"
-      crossorigin="anonymous"
-    ></script>
     <link rel="stylesheet" href="../css/style.css" />
     <link rel="stylesheet" href="../css">
     <link rel="stylesheet" href="../css/menu.css" />
@@ -21,6 +15,7 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
       rel="stylesheet"
     />
+    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
     <meta
       name="description"
       content="This is the Shashi KS website where we will be uploading blogs, study materials, mock tests and quizzes regularly on Computer Science."
@@ -29,6 +24,7 @@
 <meta property="og:url" content="#" />
 <meta property="og:title" content="Shashi KS Website Home Page" />
 <meta property="og:description" content="This is the Shashi KS website where we will be uploading blogs, study materials, mock tests and quizzes regularly on Computer Science." />
+<meta name="author" content="Shashi KS">
   </head>
   <body>
     <nav>
@@ -38,7 +34,7 @@
     <div class="menu">
       <div>
         <div>
-          <img src="../img/logo.jpg" alt="logo" width="150px" />
+          <img src="../../img/logo.jpg" alt="logo" width="150px" />
           <ul>
             <li><a href="../html/index.html">Home</a></li>
             <li><a href="../html/about.html">About</a></li>
@@ -80,5 +76,16 @@
   <p>TRB Polytechnic Computer Science full mock test</p>
 </section>
 
+    <script>
+  if (window.netlifyIdentity) {
+    window.netlifyIdentity.on("init", user => {
+      if (!user) {
+        window.netlifyIdentity.on("login", () => {
+          document.location.href = "../admin/";
+        });
+      }
+    });
+  }
+</script>
   </body>
 </html>
