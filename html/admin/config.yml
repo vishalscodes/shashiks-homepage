@@ -6,7 +6,7 @@ backend:
   collections:
     - name: "blog" # Used in routes, e.g., /admin/collections/blog
       label: "Blog" # Used in the UI
-      folder: "blog"
+      folder: "/all-articles"
       create: true
       slug: "{{day}}-{{month}}-{{year}}-{{slug}}"
       fields:
