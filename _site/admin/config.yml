@@ -6,7 +6,7 @@ public_folder: "/_site/all-articles"
 collections:
   - name: "all-articles" # Used in routes, e.g., /admin/collections/blog
     label: "Blog" # Used in the UI
-    folder: "/all-articles"
+    folder: "../all-articles"
     create: true
     slug: "{{day}}-{{month}}-{{year}}-{{slug}}"
     fields:
