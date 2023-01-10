@@ -9,8 +9,8 @@ description: This is the Shashi KS blog page where you can access our latest blo
   <h1>Blog - Shashi KS</h1>
 </header>
 <section class="boxes">
+  {%- for post in collections.post | reverse -%}
   <div class="container">
-    {%- for post in collections.post | reverse -%}
     <div class="box">
         <h2>
         <a
