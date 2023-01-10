@@ -13,12 +13,7 @@ footer {
   color: #333;
   font-size: 20px;
   text-align: center;
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
 }
-
 .box {
   background: #0a51cc;
   color: #fff;
