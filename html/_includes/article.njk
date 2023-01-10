@@ -31,7 +31,10 @@
     <meta name="author" content="Shashi KS">
   </head>
   <body>
-    <h1>{{ title }}</h1>
-    {{ content | safe }}
+    <main>
+    <header><h1>{{ title }}</h1></header>
+    <article> {{ content | safe }} </article>
+    {% include 'footer.njk' %}
+    </main>
   </body>
 </html>
