@@ -9,7 +9,7 @@ module.exports = function (eleventyConfig) {
     return Date.fromJSDate(dateObj).toLocaleString(Date.DATE_MED);
   });
   eleventyConfig.addCollection("specialCollection", function (collection) {
-  return collection.getAll().filter((post) => post.data.post);
+  return collection.getAll().filter((post) => post.data.tags);
 });
   return {
     dir: {
