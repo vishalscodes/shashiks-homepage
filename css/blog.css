@@ -14,6 +14,9 @@ footer {
   font-size: 20px;
   text-align: center;
 }
+header {
+  height: 20%;
+}
 .box {
   background: #0a51cc;
   color: #fff;
@@ -25,11 +28,10 @@ footer {
 }
 
 .header .container {
-  padding-top: 20px;
   text-align: center;
 }
 
-.boxes .container {
+.boxes {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 }
