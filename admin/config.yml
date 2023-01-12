@@ -14,5 +14,5 @@ collections:
       - { "label": "Description", name: "description", widget: "string" }
       - { "label": "Date", name: "date", widget: "date" }
       - { "label": "Tags", name: "tags", widget: "list", default: ["post"] }
-      - { "label": "Author", name: "author", widget: "string", default: ["Shashi KS"] }
+      - { "label": "Author", name: "author", widget: "string", default: "Shashi KS" }
       - { "label": "Body", name: "body", widget: "markdown" }
