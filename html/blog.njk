@@ -9,7 +9,21 @@ description: This is the Shashi KS blog page where you can access our latest blo
   <h1>Blog - Shashi KS</h1>
 </header>
   {% for post in collections.post | reverse %}
-    {% include 'article-snippet.njk' %}
+    <section class="boxes">
+  <div class="container">
+    <div class="box">
+        <h2>
+        <a
+          href="{{post.url}}"
+          target="_blank"
+          > {{ post.data.title }} </a
+        >
+      </h2>
+      <p>
+        {{post.data.description}}
+      </p>
+    </div>
+</section>
   {% endfor %}
 {% include "footer.njk" %}
 </main>
