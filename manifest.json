@@ -1,0 +1,30 @@
+{
+  "name": "Shashi KS Website",
+  "shortcuts": [
+    {
+      "name": "Home",
+      "description": "Visit the Homepage",
+      "url": "#"
+    },
+    {
+      "name": "About",
+      "description": "Know Us",
+      "url": "_site/about.html"
+    },
+    {
+      "name": "Blog",
+      "description": "Read our Blogs",
+      "url": "_site/blog.html"
+    },
+    {
+      "name": "Contact",
+      "description": "Know where to contact us",
+      "url": "_site/index.html#contact"
+    },
+    {
+      "name": "Tests",
+      "description": "An overview of our test packages",
+      "url": "_site/tests.html"
+    }
+  ]
+}
