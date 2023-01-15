@@ -23,6 +23,9 @@
       name="description"
       content="{{ description }}"
     />
+    <link rel="apple-touch-icon" href="img/apple-icon-180.png">
+
+<meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="twitter:creator" content="@shashiksishere" />
     <meta property="og:url" content="#" />
     <meta property="og:title" content="{{ title }}" />
@@ -37,5 +40,10 @@
     <article> {{ content | safe }} </article>
     {% include 'footer.njk' %}
     </main>
+    <script>
+    if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('../../service-worker.js')
+  }
+  </script>
   </body>
 </html>
