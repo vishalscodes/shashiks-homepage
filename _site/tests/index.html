@@ -4,14 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title> My Tests - Shashi KS </title>
+    <title>My Tests - Shashi KS</title>
     <link rel="shortcut icon" href="../img/logo.jpg" type="image/x-icon" />
-    <link rel="stylesheet" href="../css/style.css" />
-    <link rel="stylesheet" href="../css/blog.css">
-    <link rel="stylesheet" href="../css/about.css">
-    <link rel="stylesheet" href="../css/tests.css">
+    <link rel="stylesheet" href="../css/tests.css" />
     <link rel="stylesheet" href="../css/menu.css" />
-    <meta name="theme-color" content="#fff"/>
+    <meta name="theme-color" content="#fff" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -23,74 +20,77 @@
       name="description"
       content="This is the Shashi KS tests page where you can view information on our mock tests."
     />
-    <link rel="apple-touch-icon" href="img/apple-icon-180.png">
+    <link rel="apple-touch-icon" href="img/apple-icon-180.png" />
 
-<meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="twitter:creator" content="@shashiksishere" />
-<meta property="og:url" content="#" />
-<meta property="og:title" content="My Tests - Shashi KS" />
-<meta property="og:description" content="This is the Shashi KS tests page where you can view information on our mock tests." />
-<meta name="author" content="Shashi KS">
-<link rel="manifest"
-        href="manifest.json">
-<style>
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="twitter:creator" content="@shashiksishere" />
+    <meta property="og:url" content="#" />
+    <meta property="og:title" content="My Tests - Shashi KS" />
+    <meta
+      property="og:description"
+      content="This is the Shashi KS tests page where you can view information on our mock tests."
+    />
+    <meta name="author" content="Shashi KS" />
+    <link rel="manifest" href="manifest.json" />
+    <style>
       body {
-        font-family: 'Poppins', sans-serif;
+        font-family: "Poppins", sans-serif;
       }
     </style>
   </head>
   <body>
-    
-<nav>
-  <div class="menu-wrap">
-    <form><input type="checkbox" class="toggler" /></form>
-    <div class="hamburger"><div></div></div>
-    <div class="menu">
-      <div>
-        <div>
-          <img src="../../img/logo.jpg" alt="logo" width="150px" />
-          <ul>
-            <li><a href="../index.html">Home</a></li>
-            <li><a href="../about.html">About</a></li>
-            <li><a href="../blog.html">Blog</a></li>
-            <li><a href="../index.html#contact">Contact</a></li>
-            <li><a href="../tests.html">Tests</a></li>
-          </ul>
+    <nav>
+      <div class="menu-wrap">
+        <form><input type="checkbox" class="toggler" /></form>
+        <div class="hamburger"><div></div></div>
+        <div class="menu">
+          <div>
+            <div>
+              <img src="../../img/logo.jpg" alt="logo" width="150px" />
+              <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../about.html">About</a></li>
+                <li><a href="../blog.html">Blog</a></li>
+                <li><a href="../index.html#contact">Contact</a></li>
+                <li><a href="../tests.html">Tests</a></li>
+              </ul>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
-  </div>
-</nav>
+    </nav>
 
-<header><h1>My Tests - Shashi KS</h1></header>
-<section class="tests" id="tests">
-  <p class="title">My test packages:</p>
-  <p>PGTRB Computer Science full mock test - ₹150</p>
-  <p>TRB Polytechnic Computer Science full mock tests 1, 2, 3 - ₹150 each</p>
-  <p>For Payment details contact me at shashiks2732020@gmail.com</p>
-</section>
-<footer>
-  <p>Find me elsewhere on the web as well:</p>
-  <p>
-    <a href="https://www.youtube.com/c/ShashiKS/">Youtube</a>
-    <a href="https://twitter.com/shashiksishere">Twitter</a>
-    <a href="https://t.me/joinchat/AyU4RtrVE-82Njc1">Telegram</a>
-  </p>
-</footer>
+    <header><h1>My Tests - Shashi KS</h1></header>
+    <section class="tests" id="tests">
+      <p class="title">My test packages:</p>
+      <p>PGTRB Computer Science full mock test - ₹150</p>
+      <p>
+        TRB Polytechnic Computer Science full mock tests 1, 2, 3 - ₹150 each
+      </p>
+      <p>For Payment details contact me at shashiks2732020@gmail.com</p>
+    </section>
+    <footer>
+      <p>Find me elsewhere on the web as well:</p>
+      <p>
+        <a href="https://www.youtube.com/c/ShashiKS/">Youtube</a>
+        <a href="https://twitter.com/shashiksishere">Twitter</a>
+        <a href="https://t.me/joinchat/AyU4RtrVE-82Njc1">Telegram</a>
+      </p>
+    </footer>
     <script>
-  if (window.netlifyIdentity) {
-    window.netlifyIdentity.on("init", user => {
-      if (!user) {
-        window.netlifyIdentity.on("login", () => {
-          document.location.href = "../admin/";
+      if (window.netlifyIdentity) {
+        window.netlifyIdentity.on("init", (user) => {
+          if (!user) {
+            window.netlifyIdentity.on("login", () => {
+              document.location.href = "../admin/";
+            });
+          }
         });
       }
-    });
-  }
 
-  if ('serviceWorker' in navigator) {
-    navigator.serviceWorker.register('../../service-worker.js')
-  }
-</script>
+      if ("serviceWorker" in navigator) {
+        navigator.serviceWorker.register("../../service-worker.js");
+      }
+    </script>
   </body>
 </html>
