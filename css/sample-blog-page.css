@@ -1,12 +1,12 @@
 html {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   display: block;
 }
 * {
-box-sizing: border-box;
-margin: 0;
-padding: 0;
-line-height: 1.5;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
 }
 body {
   display: flex;
@@ -16,7 +16,9 @@ body {
 h1 {
   text-align: center;
 }
-head, header, article {
+head,
+header,
+article {
   flex: 1 0 auto;
 }
 footer {
@@ -25,7 +27,6 @@ footer {
   font-size: 20px;
   text-align: center;
   margin: 0%;
-  width: 100%;
 }
 @media (max-width: 500px) {
   footer a {
