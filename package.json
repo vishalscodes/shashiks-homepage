@@ -20,5 +20,8 @@
   "homepage": "https://github.com/vishalscodes/shashiks#readme",
   "devDependencies": {
     "@11ty/eleventy": "^1.0.2"
+  },
+  "dependencies": {
+    "request": "^2.88.2"
   }
 }
