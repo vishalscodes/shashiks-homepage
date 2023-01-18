@@ -54,5 +54,6 @@
       "description": "An overview of our test packages",
       "url": "_site/tests.html"
     }
-  ]
+  ],
+  "display": "fullscreen"
 }
