@@ -1,6 +1,7 @@
 {
   "name": "Shashi KS Website",
   "background_color": "#fff",
+  "theme_color": "#fff",
   "icons": [
     {
       "src": "img/manifest-icon-192.maskable.png",
