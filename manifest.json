@@ -1,5 +1,6 @@
 {
-  "name": "Shashi KS Website",
+  "name": "Shashi KS Web App",
+  "short_name": "Shashi KS App",
   "background_color": "#fff",
   "theme_color": "#fff",
   "icons": [
