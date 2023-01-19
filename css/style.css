@@ -61,13 +61,10 @@ footer {
   }
 }
 
-:root {
+.typewriter {
   --bg-color: hsl(49 37% 94%);
   --typewriterSpeed: 6s;
   --typewriterCharacters: 24;
-}
-
-body {
   margin: 0;
   font-family: "Source Sans Pro", sans-serif;
   min-height: 100vh;
@@ -77,7 +74,7 @@ body {
   background: var(--bg-color);
 }
 
-h1 {
+.typewriter-animation {
   font-size: clamp(1rem, 3vw + 1rem, 4rem);
   position: relative;
   font-family: "Source Code Pro", monospace;
@@ -85,8 +82,8 @@ h1 {
   width: max-content;
 }
 
-h1::before,
-h1::after {
+.typewriter-animation::before,
+.typewriter-animation::after {
   content: "";
   position: absolute;
   top: 0;
@@ -95,13 +92,13 @@ h1::after {
   left: 0;
 }
 
-h1::before {
+.typewriter-animation::before {
   background: var(--bg-color);
   animation: typewriter var(--typewriterSpeed)
     steps(var(--typewriterCharacters)) 1s forwards;
 }
 
-h1::after {
+.typewriter-animation::after {
   width: 0.125em;
   background: black;
   animation: typewriter var(--typewriterSpeed)
