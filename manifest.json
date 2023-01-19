@@ -1,6 +1,7 @@
 {
-  "name": "Shashi KS Web App",
-  "short_name": "Shashi KS App",
+  "name": "Shashi KS Website",
+  "start_url": "_site/index.html",
+  "description": "This is the Shashi KS website where we will be uploading blogs, study materials, mock tests and quizzes regularly on Computer Science.",
   "background_color": "#fff",
   "theme_color": "#fff",
   "icons": [
