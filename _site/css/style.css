@@ -11,7 +11,6 @@ header {
   align-items: center;
   flex-direction: column;
   background-color: #ff3333;
-  height: 300px;
 }
 img {
   max-width: 100%;
@@ -67,7 +66,6 @@ footer {
 body {
   margin: 0;
   font-family: "Source Sans Pro", sans-serif;
-  min-height: 100vh;
   display: grid;
   place-content: center;
   text-align: center;
@@ -78,8 +76,6 @@ body {
   font-size: clamp(1rem, 3vw + 1rem, 4rem);
   position: relative;
   font-family: "Source Code Pro", monospace;
-  position: relative;
-  width: max-content;
 }
 
 .typewriter-animation::before,
@@ -104,15 +100,6 @@ body {
   animation: typewriter var(--typewriterSpeed)
       steps(var(--typewriterCharacters)) 1s forwards,
     blink 750ms steps(var(--typewriterCharacters)) infinite;
-}
-
-.subtitle {
-  color: hsl(0 0% 0% / 0.7);
-  font-size: 2rem;
-  font-weight: 400;
-  opacity: 0;
-  transform: translateY(3rem);
-  animation: fadeInUp 2s ease calc(var(--typewriterSpeed) + 2s) forwards;
 }
 
 @keyframes typewriter {
