@@ -63,8 +63,6 @@ footer {
   }
 }
 
-body {
-
 .typewriter {
   --bg-color: hsl(49 37% 94%);
   --typewriterSpeed: 6s;
