@@ -4,15 +4,15 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Shashi KS Website Home Page</title>
+    <title> Shashi KS Website Home Page </title>
     <link rel="shortcut icon" href="../img/logo.jpg" type="image/x-icon" />
 
     <link rel="stylesheet" href="../css/style.css" />
-    <link rel="stylesheet" href="../css/blog.css" />
-    <link rel="stylesheet" href="../css/about.css" />
-    <link rel="stylesheet" href="../css/tests.css" />
+    <link rel="stylesheet" href="../css/blog.css">
+    <link rel="stylesheet" href="../css/about.css">
+    <link rel="stylesheet" href="../css/tests.css">
     <link rel="stylesheet" href="../css/menu.css" />
-    <meta name="theme-color" content="#fff" />
+    <meta name="theme-color" content="#fff"/>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -23,8 +23,9 @@
       name="description"
       content="This is the Shashi KS website where we will be uploading blogs, study materials, mock tests and quizzes regularly on Computer Science."
     />
-    <link rel="apple-touch-icon" href="img/apple-icon-180.png" />
+    <link rel="apple-touch-icon" href="img/apple-icon-180.png">
 
+<<<<<<< Updated upstream
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="twitter:creator" content="@shashiksishere" />
     <meta property="og:url" content="#" />
@@ -60,53 +61,86 @@
               </ul>
             </div>
           </div>
+=======
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="twitter:creator" content="@shashiksishere" />
+<meta property="og:url" content="#" />
+<meta property="og:title" content="Shashi KS Website Home Page" />
+<meta property="og:description" content="This is the Shashi KS website where we will be uploading blogs, study materials, mock tests and quizzes regularly on Computer Science." />
+<meta name="author" content="Shashi KS">
+<style>
+  body {
+    font-family: 'Poppins', sans-serif;
+  }
+</style>
+<link rel="manifest" href="manifest.json">
+<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+  </head>
+  <body>
+    <nav>
+  <div class="menu-wrap">
+    <input type="checkbox" class="toggler" placeholder="label-button"/>
+    <div class="hamburger"><div></div></div>
+    <div class="menu">
+      <div>
+        <div>
+    <img src="../../logo.jpg" alt="logo" width="150px">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="tests.html">Tests</a></li>
+          </ul>
+>>>>>>> Stashed changes
         </div>
       </div>
-    </nav>
-    <header>
-      <h1 class="hero_title typewriter-animation">Hi, I am Shashi</h1>
-      <p class="hero_subtitle">Welcome to my blog</p>
-    </header>
-    <section class="products">
-      <p class="product_tile">Read my <a href="blog.html">blog</a></p>
-      <p class="product_tile">
-        Watch my <a href="https://www.youtube.com/c/ShashiKS">YouTube videos</a>
-      </p>
-      <p class="product_tile">Buy my <a href="tests.html">tests</a></p>
-      <p class="product_tile">
-        Discuss on our
-        <a href="https://t.me/joinchat/AyU4RtrVE-82Njc1"
-          >telegram discussion group</a
-        >
-        regarding the TRB Polytechnic exam
-      </p>
-    </section>
-    <section class="contact" id="contact">
-      <p>
-        For business enquiries and payments contact me at
-        shashiks2732020@gmail.com
-      </p>
-    </section>
-    <section class="tests" id="tests">
-      <p>My recent test packages:</p>
-      <p>PGTRB Computer Science full mock test</p>
-      <p>TRB Polytechnic Computer Science full mock test</p>
-    </section>
+    </div>
+  </div>
+</nav>
+<header>
+  <h1 class="hero_title typewriter-animation">Hi, I am Shashi</h1>
+  <p class="hero_subtitle">Welcome to my blog</p>
+</header>
+<section class="products">
+  <p class="product_tile">Read my <a href="blog.html">blog</a></p>
+  <p class="product_tile">
+    Watch my <a href="https://www.youtube.com/c/ShashiKS">YouTube videos</a>
+  </p>
+  <p class="product_tile">Buy my <a href="tests.html">tests</a></p>
+  <p class="product_tile">
+    Discuss on our
+    <a href="https://t.me/joinchat/AyU4RtrVE-82Njc1"
+      >telegram discussion group</a
+    >
+    regarding the TRB Polytechnic exam
+  </p>
+</section>
+<section class="contact" id="contact">
+  <p>
+    For business enquiries and payments contact me at shashiks2732020@gmail.com
+  </p>
+</section>
+<section class="tests" id="tests">
+  <p>My recent test packages:</p>
+  <p>PGTRB Computer Science full mock test</p>
+  <p>TRB Polytechnic Computer Science full mock test</p>
+</section>
 
     <script>
-      if (window.netlifyIdentity) {
-        window.netlifyIdentity.on("init", (user) => {
-          if (!user) {
-            window.netlifyIdentity.on("login", () => {
-              document.location.href = "../admin/";
-            });
-          }
+  if (window.netlifyIdentity) {
+    window.netlifyIdentity.on("init", user => {
+      if (!user) {
+        window.netlifyIdentity.on("login", () => {
+          document.location.href = "../admin/";
         });
       }
+    });
+  }
 
-      if ("serviceWorker" in navigator) {
-        navigator.serviceWorker.register("../../service-worker.js");
-      }
-    </script>
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('../../service-worker.js')
+  }
+</script>
   </body>
 </html>
