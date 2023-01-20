@@ -1,7 +1,6 @@
 :root {
   font-family: "Poppins", sans-serif;
   scroll-behavior: smooth;
-  --bg-color: hsl(49 37% 94%);
   --typewriterSpeed: 6s;
   --typewriterCharacters: 24;
 }
