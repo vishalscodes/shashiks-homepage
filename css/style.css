@@ -133,7 +133,3 @@ body {
     transform: translateY(0);
   }
 }
-
-html > * {
-  outline: 1px solid black;
-}
