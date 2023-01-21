@@ -1,20 +1,49 @@
+/* Body Styles  */
+
 :root {
   font-family: "Poppins", sans-serif;
   scroll-behavior: smooth;
+  --typewriter-bg-color: hsl(49 37% 94%);
   --typewriterSpeed: 6s;
   --typewriterCharacters: 24;
+  --hero-bg-color: #ff3333;
+  --contact-bg-color: yellow;
+  --tests-bg-color: #00b3b3;
+  --footer-bg-color: #dedede;
+  --youtube-bg-image: image("img/youtube-logo.jpeg");
+  --footer-color: #333;
+  --fw-primary: 500;
 }
-header {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  background-color: #ff3333;
+.container {
+  font-weight: var(--fw-primary);
+  margin: 0 auto;
+  max-width: 62.5rem;
+  padding: 0 1.5rem;
 }
+
+/* Element Styling */
+
 img {
   max-width: 100%;
   display: table;
   margin: 0 auto;
+}
+footer {
+  background-color: var(--footer-bg-color);
+  color: var(--footer-color);
+  font-size: 20px;
+  text-align: center;
+}
+
+/* Hero Section Styling  */
+
+.hero {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  background-color: var(--hero-bg-color);
 }
 .hero_title {
   display: flex;
@@ -23,52 +52,57 @@ img {
 }
 .hero_subtitle {
   display: flex;
+  justify-content: center;
   align-items: center;
   font-size: 36px;
   font-style: italic;
+}
+
+/* Products Section Styling  */
+
+.products {
+  height: 300px;
+  padding: 70px 0;
+}
+.product_tile {
+  font-size: 20px;
+  text-align: center;
+}
+.youtube-product-section:before {
+  content: "";
+  background: var(--youtube-bg-image);
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.5;
 }
 .contact {
   height: 300px;
   padding: 125px 0;
   font-size: 20px;
   text-align: center;
-  background-color: yellow;
+  background-color: var(--contact-bg-color);
 }
 .tests {
   height: 300px;
   padding: 100px 0;
   font-size: 20px;
   text-align: center;
-  background-color: #00b3b3;
-}
-footer {
-  background-color: #dedede;
-  color: #333;
-  font-size: 20px;
-  text-align: center;
-}
-.product_tile {
-  font-size: 20px;
-  text-align: center;
+  background-color: var(--tests-bg-color);
 }
 
-.products {
-  height: 300px;
-  padding: 70px 0;
-}
-@media (max-width: 500px) {
-  footer a {
-    display: block;
-  }
-}
+/* Typewriter Animation */
 
-body {
+.typewriter {
   margin: 0;
   font-family: "Source Sans Pro", sans-serif;
   display: grid;
   place-content: center;
   text-align: center;
-  background: var(--bg-color);
+  background: var(--typewriter-bg-color);
 }
 
 .typewriter-animation {
@@ -88,7 +122,7 @@ body {
 }
 
 .typewriter-animation::before {
-  background: var(--bg-color);
+  background: var(--typewriter-bg-color);
   animation: typewriter var(--typewriterSpeed)
     steps(var(--typewriterCharacters)) 1s forwards;
 }
@@ -119,8 +153,8 @@ body {
     transform: translateY(0);
   }
 }
-<<<<<<< Updated upstream
-=======
+
+/* Media Queries  */
 
 @media (max-width: 416px) {
   h1::after {
@@ -138,4 +172,9 @@ body {
       steps(var(--typewriterCharacters)) 1s forwards;
   }
 }
->>>>>>> Stashed changes
+
+@media (max-width: 500px) {
+  footer a {
+    display: block;
+  }
+}
