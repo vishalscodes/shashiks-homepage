@@ -10,7 +10,7 @@
   --contact-bg-color: yellow;
   --tests-bg-color: #00b3b3;
   --footer-bg-color: #dedede;
-  --youtube-bg-image: image("img/youtube-logo.jpeg");
+  --youtube-bg-image: image("/img/youtube-logo.jpeg");
   --footer-color: #333;
   --fw-primary: 500;
 }
@@ -54,6 +54,7 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
   font-size: 36px;
   font-style: italic;
 }
@@ -68,7 +69,8 @@ footer {
   font-size: 20px;
   text-align: center;
 }
-.youtube-product-section:before {
+.youtube-product-section::before,
+.youtube-product-section::after {
   content: "";
   background: var(--youtube-bg-image);
   background-size: cover;

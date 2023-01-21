@@ -4,7 +4,7 @@ layout: "base.njk"
 description: This is the Shashi KS about page where you can access information regarding our channel and blog.
 ---
 
-<div style="max-width: 600px; margin: 0 auto; font-weight: 500;">
+<div style="max-width: 700px; margin: 0 auto; font-weight: 500;">
 
 # Shashi KS Website
 
@@ -27,13 +27,13 @@ I created this website to connect with you all and also increase our versatility
 
 ## Social Media Links
 
-Official Website: https://shashiks.netlify.app <br/>
-YouTube: https://www.youtube.com/c/shashiks <br/>
-Twitter: https://twitter.com/shashiksishere <br/>
-Gmail: shashiks2732020@gmail.com <br/>
-Telegram Group: https://tinyurl.com/shashiks-telegram-group <br/>
-Telegram Channel: https://t.me/shashikschannel <br/>
-Our Forum: https://github.com/vishalscodes/shashiks/discussions
+- Official Website: [https://shashiks.netlify.app](https://shashiks.netlify.app) <br/>
+- YouTube: [https://www.youtube.com/c/shashiks](https://www.youtube.com/c/shashiks) <br/>
+- Twitter: [https://twitter.com/shashiksishere](https://twitter.com/shashiksishere) <br/>
+- Gmail: [shashiks2732020@gmail.com](mailto:shashiks2732020@gmail.com) <br/>
+- Telegram Group: [https://tinyurl.com/shashiks-telegram-group](https://tinyurl.com/shashiks-telegram-group) <br/>
+- Telegram Channel: [https://t.me/shashikschannel](https://t.me/shashikschannel) <br/>
+- Our Forum: [https://github.com/vishalscodes/shashiks/discussions](https://github.com/vishalscodes/shashiks/discussions)
 
 ## A note on the FOSSness of this product
 
