@@ -13,6 +13,9 @@
   --youtube-bg-image: image("/img/youtube-logo.jpeg");
   --footer-color: #333;
   --fw-primary: 500;
+  --clr-article-400: #255b98;
+  --clr-course-400: #1a7f78;
+  --clr-neutral-100: #fff;
 }
 .container {
   font-weight: var(--fw-primary);
@@ -62,15 +65,24 @@ footer {
 /* Products Section Styling  */
 
 .products {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   height: 300px;
   padding: 70px 0;
+  height: 100vh;
+  text-align: center;
+  font-size: 4em;
 }
 .product_tile {
-  font-size: 20px;
   text-align: center;
 }
-.youtube-product-section:before,
-.youtube-product-section:after {
+.product_heading {
+  font-weight: 900;
+}
+.youtube-product-section::before,
+.youtube-product-section::after {
   content: "";
   background: var(--youtube-bg-image);
   background-size: cover;
@@ -82,20 +94,37 @@ footer {
   opacity: 0.5;
 }
 .contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   height: 300px;
-  padding: 125px 0;
-  font-size: 20px;
-  text-align: center;
+  padding: 70px 0;
+  height: 100vh;
+  text-align: center;  
   background-color: var(--contact-bg-color);
 }
 .tests {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   height: 300px;
-  padding: 100px 0;
-  font-size: 20px;
+  padding: 70px 0;
+  height: 100vh;
   text-align: center;
   background-color: var(--tests-bg-color);
 }
 
+.test-section {
+  background-color: var(--clr-course-400);
+  background-image: linear-gradient(120deg,var(--clr-article-400),var(--clr-course-400));
+  color: var(--clr-neutral-100);
+}
+
+.test-section a {
+  color: white;
+}
 /* Typewriter Animation */
 
 .typewriter {
