@@ -4,7 +4,7 @@ layout: "base.njk"
 description: This is the Shashi KS about page where you can access information regarding our channel and blog.
 ---
 
-<div style="margin: 0 auto;">
+<div style="max-width: 600px; margin: 0 auto; font-weight: 500;">
 
 # Shashi KS Website
 
@@ -20,10 +20,10 @@ I created this website to connect with you all and also increase our versatility
 
 ### Here's a magnified view of the many topics on which I post content.
 
-- Content on Operating Systems, C Programming, Java & J2EE, Data Structures, Compiler Design, System Software, etc.
-- Content on useful software applications
-- Preparatory Materials, Solved Question Papers for GATE, TRB, UGC NET, PGTRB, PGT CS Exam.
-- Important and Reliable Educational updates /Social Awareness Content.
+1. Content on Operating Systems, C Programming, Java & J2EE, Data Structures, Compiler Design, System Software, etc.
+2. Content on useful software applications
+3. Preparatory Materials, Solved Question Papers for GATE, TRB, UGC NET, PGTRB, PGT CS Exam.
+4. Important and Reliable Educational updates /Social Awareness Content.
 
 ## Social Media Links
 
