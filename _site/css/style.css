@@ -7,21 +7,23 @@
   --typewriterSpeed: 6s;
   --typewriterCharacters: 24;
   --hero-bg-color: #ff3333;
-  --contact-bg-color: yellow;
-  --tests-bg-color: #00b3b3;
   --footer-bg-color: #dedede;
   --youtube-bg-image: url("/img/youtube-logo.jpg");
   --footer-color: #333;
-  --fw-primary: 500;
   --clr-article-400: #255b98;
   --clr-course-400: #1a7f78;
   --clr-neutral-100: #fff;
+  --fw-primary: 500;
+  outline: 1px solid black;
+}
+html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
 }
 .container {
+  font-size: 35px;
   font-weight: var(--fw-primary);
-  margin: 0 auto;
-  max-width: 62.5rem;
-  padding: 0 1.5rem;
 }
 
 /* Element Styling */
@@ -86,12 +88,14 @@ footer {
   content: "";
   background: var(--youtube-bg-image);
   background-size: cover;
+  max-width: 100%;
+  max-height: 100%;
   position: absolute;
   top: 0px;
   right: 0px;
   bottom: 0px;
   left: 0px;
-  opacity: 0.5;
+  opacity: 0.25;
 }
 .contact {
   display: flex;
@@ -102,7 +106,14 @@ footer {
   padding: 70px 0;
   height: 100vh;
   text-align: center;
-  background-color: var(--contact-bg-color);
+  color: #fff;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(24, 66, 184, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
 }
 .tests {
   display: flex;
@@ -113,7 +124,6 @@ footer {
   padding: 70px 0;
   height: 100vh;
   text-align: center;
-  background-color: var(--tests-bg-color);
 }
 
 .test-section {
@@ -128,6 +138,15 @@ footer {
 
 .test-section a {
   color: white;
+}
+
+.blog-section {
+  background: rgb(238, 174, 202);
+  background: radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
 }
 /* Typewriter Animation */
 
