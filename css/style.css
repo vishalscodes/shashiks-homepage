@@ -81,7 +81,8 @@ footer {
 .product_heading {
   font-weight: 900;
 }
-.youtube-product-section::before {
+.youtube-product-section::before,
+.youtube-product-section::after {
   content: "";
   background: var(--youtube-bg-image);
   background-size: cover;
