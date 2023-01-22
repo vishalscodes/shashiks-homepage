@@ -10,7 +10,7 @@
   --contact-bg-color: yellow;
   --tests-bg-color: #00b3b3;
   --footer-bg-color: #dedede;
-  --youtube-bg-image: image("/img/youtube-logo.jpeg");
+  --youtube-bg-image: url("img/youtube-logo.jpg");
   --footer-color: #333;
   --fw-primary: 500;
   --clr-article-400: #255b98;
@@ -81,8 +81,7 @@ footer {
 .product_heading {
   font-weight: 900;
 }
-.youtube-product-section::before,
-.youtube-product-section::after {
+.youtube-product-section::before {
   content: "";
   background: var(--youtube-bg-image);
   background-size: cover;
