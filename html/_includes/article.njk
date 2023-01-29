@@ -36,7 +36,11 @@
   </head>
   <body>
     <main>
-    <header><h1>{{ title }}</h1></header>
+    <header><h1>{{ title }}</h1>
+    <section>{{post.author}}
+    <p>Uploaded on <time datetime="{{post.date}}">{{ post.date }}</time></p>
+    </section>
+    </header>
     <article> {{ content | safe }} </article>
     {% include 'footer.njk' %}
     </main>
