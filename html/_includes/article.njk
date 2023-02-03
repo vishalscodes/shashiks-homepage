@@ -34,9 +34,13 @@
     <meta name="author" content="Shashi KS">
     <link rel="manifest" href="manifest.json">
   </head>
-  <body>
+  <body style="font-family: 'Poppins', serif, sans-serif; width: 75%; margin: 0 auto;">
     <main>
-    <header><h1>{{ title }}</h1></header>
+    <header><h1>{{ title }}</h1>
+    <section>{{post.author}}
+    <p>Uploaded on <time datetime="{{post.date}}">{{ post.date }}</time></p>
+    </section>
+    </header>
     <article> {{ content | safe }} </article>
     {% include 'footer.njk' %}
     </main>
