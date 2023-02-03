@@ -1,6 +1,8 @@
 /* Body Styles  */
 
 :root {
+  margin: 0;
+  padding: 0;
   font-family: "Poppins", sans-serif;
   scroll-behavior: smooth;
   --typewriter-bg-color: hsl(49 37% 94%);
@@ -82,8 +84,7 @@ img {
   margin: 0 auto;
 }
 
-.youtube-product-section::before,
-.youtube-product-section::after {
+.youtube-product-section::before {
   position: absolute;
   top: 0px;
   right: 0px;

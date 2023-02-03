@@ -1,0 +1,16 @@
+.carousel {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  display: flex;
+  flex-wrap: nowrap;
+}
+.carousel > * {
+  padding: 1rem;
+  margin: 0 auto;
+  border: 1px solid black;
+  flex: 0 0 auto;
+  font-size: 3rem;
+  font-weight: 400;
+  border: 1px solid black;
+  text-align: center;
+}
